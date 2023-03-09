@@ -39,7 +39,7 @@ body {
 }
 
 .menu {
-    height: 80px;
+    height: 120px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
