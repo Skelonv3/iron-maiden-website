@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Metal Lord; 
+    src: url(metal_lord.ttf);
+}
+.menu a {
+    font-family: Metal Lord;  
+    color:red;
+    font-size: xxx-large;
+    padding: 8px 10px;
+    height:100%;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #999898;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 0 0 0;
+    height: 968px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: center;
+}
+
+.head {
+    border: 2px solid white;
+}
+
+.band {
+    min-height: 200px;
+    height: 300px;
+    background: rgb(121,85,11);
+    background: linear-gradient(180deg, rgba(121,85,11,1) 54%, rgba(0,0,0,1) 89%);
+    border: 2px solid white;
+}
+
+.menu {
+    height: 80px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+}
+#foot {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    justify-content: center;
+}

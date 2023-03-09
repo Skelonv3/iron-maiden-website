@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Metal Lord; 
+    src: url(metal_lord.ttf);
+}
+.menu .link {
+    font-family: Metal Lord;
+    color: red;
+    font-size: xxx-large;
+    padding: 8px 10px;
+    height: 100%;
+    text-decoration: none;
+}
+.menu .active {
+    color: #999898;
+}
+.menu .active:hover {
+    background-color: initial;
+    opacity: 1;
+
+}
+.menu a:hover {
+    background-color: #999898;
+    opacity: 70%;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 0 0 0;
+    height: 968px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    height: 80px;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+}
+#foot {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+#middle {
+    display: flex;
+    justify-content: center;
+}
+#banner {
+    margin-top: 150px;
+    width: 335px;
+    height: 496px;
+}
+#tickets {
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#link {
+    justify-content: center;
+}
